@@ -23,9 +23,11 @@ namespace ConsoleApp_Trial3
             catch
             {
                 Console.WriteLine("There is an error");
+                Console.WriteLine("Please click a key to exit");
                 Console.ReadKey(true);
             }//end of catch
         }//end of main
+        
         private static string Max_Grade(int marks)
             {
             if (marks <60)
